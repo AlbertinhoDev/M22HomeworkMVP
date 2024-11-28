@@ -1,0 +1,743 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1159FF48ED3BFBA0E8E93440 /* Pods_M22HomeworkTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B8F5967909EBFD30BEF614A0 /* Pods_M22HomeworkTests.framework */; };
+		3DCAB3AFF2D65201B5FB92BA /* Pods_M22Homework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD997EC6778E12A9B2A5C0C7 /* Pods_M22Homework.framework */; };
+		B2139138E21D4A6BCFA36E11 /* Pods_M22Homework_M22HomeworkUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CCDD53A170FE6F4425C562A7 /* Pods_M22Homework_M22HomeworkUITests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FD34D2712CEB58A300E5ECBD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FD34D2522CEB58A000E5ECBD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FD34D2592CEB58A000E5ECBD;
+			remoteInfo = M22Homework;
+		};
+		FD34D27B2CEB58A300E5ECBD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FD34D2522CEB58A000E5ECBD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FD34D2592CEB58A000E5ECBD;
+			remoteInfo = M22Homework;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		12AEFDCF1FC5E503ECAF18B8 /* Pods-M22Homework.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-M22Homework.release.xcconfig"; path = "Target Support Files/Pods-M22Homework/Pods-M22Homework.release.xcconfig"; sourceTree = "<group>"; };
+		2F2E2D1E9592CC60AC986DE4 /* Pods-M22Homework-M22HomeworkUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-M22Homework-M22HomeworkUITests.debug.xcconfig"; path = "Target Support Files/Pods-M22Homework-M22HomeworkUITests/Pods-M22Homework-M22HomeworkUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		42D51953E9DA61FF00E8F0EA /* Pods-M22Homework.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-M22Homework.debug.xcconfig"; path = "Target Support Files/Pods-M22Homework/Pods-M22Homework.debug.xcconfig"; sourceTree = "<group>"; };
+		4ABCCACD97AE8C4AF750529E /* Pods-M22Homework-M22HomeworkUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-M22Homework-M22HomeworkUITests.release.xcconfig"; path = "Target Support Files/Pods-M22Homework-M22HomeworkUITests/Pods-M22Homework-M22HomeworkUITests.release.xcconfig"; sourceTree = "<group>"; };
+		AD997EC6778E12A9B2A5C0C7 /* Pods_M22Homework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_M22Homework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B8F5967909EBFD30BEF614A0 /* Pods_M22HomeworkTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_M22HomeworkTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CAB97949A299A363D61B910C /* Pods-M22HomeworkTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-M22HomeworkTests.release.xcconfig"; path = "Target Support Files/Pods-M22HomeworkTests/Pods-M22HomeworkTests.release.xcconfig"; sourceTree = "<group>"; };
+		CCDD53A170FE6F4425C562A7 /* Pods_M22Homework_M22HomeworkUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_M22Homework_M22HomeworkUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD121D583B1433E3ABC3CB6B /* Pods-M22HomeworkTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-M22HomeworkTests.debug.xcconfig"; path = "Target Support Files/Pods-M22HomeworkTests/Pods-M22HomeworkTests.debug.xcconfig"; sourceTree = "<group>"; };
+		FD34D25A2CEB58A000E5ECBD /* M22Homework.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = M22Homework.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FD34D2702CEB58A300E5ECBD /* M22HomeworkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = M22HomeworkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FD34D27A2CEB58A300E5ECBD /* M22HomeworkUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = M22HomeworkUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		FD34D2822CEB58A300E5ECBD /* Exceptions for "M22Homework" folder in "M22Homework" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = FD34D2592CEB58A000E5ECBD /* M22Homework */;
+		};
+		FD34D3822CF08B1C00E5ECBD /* Exceptions for "Other" folder in "M22Homework" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				M22HomeworkTests/M22HomeworkTests.swift,
+				M22HomeworkUITests/M22HomeworkUITests.swift,
+				M22HomeworkUITests/M22HomeworkUITestsLaunchTests.swift,
+			);
+			target = FD34D2592CEB58A000E5ECBD /* M22Homework */;
+		};
+		FD34D3832CF08B1C00E5ECBD /* Exceptions for "Other" folder in "M22HomeworkTests" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				M22HomeworkTests/M22HomeworkTests.swift,
+			);
+			target = FD34D26F2CEB58A300E5ECBD /* M22HomeworkTests */;
+		};
+		FD34D3892CF08B1D00E5ECBD /* Exceptions for "Other" folder in "M22HomeworkUITests" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				M22HomeworkUITests/M22HomeworkUITests.swift,
+				M22HomeworkUITests/M22HomeworkUITestsLaunchTests.swift,
+			);
+			target = FD34D2792CEB58A300E5ECBD /* M22HomeworkUITests */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		FD34D25C2CEB58A000E5ECBD /* M22Homework */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				FD34D2822CEB58A300E5ECBD /* Exceptions for "M22Homework" folder in "M22Homework" target */,
+			);
+			path = M22Homework;
+			sourceTree = "<group>";
+		};
+		FD34D37E2CF08AFD00E5ECBD /* Other */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				FD34D3822CF08B1C00E5ECBD /* Exceptions for "Other" folder in "M22Homework" target */,
+				FD34D3832CF08B1C00E5ECBD /* Exceptions for "Other" folder in "M22HomeworkTests" target */,
+				FD34D3892CF08B1D00E5ECBD /* Exceptions for "Other" folder in "M22HomeworkUITests" target */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FD34D2572CEB58A000E5ECBD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3DCAB3AFF2D65201B5FB92BA /* Pods_M22Homework.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD34D26D2CEB58A300E5ECBD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1159FF48ED3BFBA0E8E93440 /* Pods_M22HomeworkTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD34D2772CEB58A300E5ECBD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B2139138E21D4A6BCFA36E11 /* Pods_M22Homework_M22HomeworkUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BE8C29A484406F10C133407B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				42D51953E9DA61FF00E8F0EA /* Pods-M22Homework.debug.xcconfig */,
+				12AEFDCF1FC5E503ECAF18B8 /* Pods-M22Homework.release.xcconfig */,
+				2F2E2D1E9592CC60AC986DE4 /* Pods-M22Homework-M22HomeworkUITests.debug.xcconfig */,
+				4ABCCACD97AE8C4AF750529E /* Pods-M22Homework-M22HomeworkUITests.release.xcconfig */,
+				CD121D583B1433E3ABC3CB6B /* Pods-M22HomeworkTests.debug.xcconfig */,
+				CAB97949A299A363D61B910C /* Pods-M22HomeworkTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		D478DC84539E4B5E67BBA03D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AD997EC6778E12A9B2A5C0C7 /* Pods_M22Homework.framework */,
+				CCDD53A170FE6F4425C562A7 /* Pods_M22Homework_M22HomeworkUITests.framework */,
+				B8F5967909EBFD30BEF614A0 /* Pods_M22HomeworkTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FD34D2512CEB58A000E5ECBD = {
+			isa = PBXGroup;
+			children = (
+				FD34D25B2CEB58A000E5ECBD /* Products */,
+				BE8C29A484406F10C133407B /* Pods */,
+				D478DC84539E4B5E67BBA03D /* Frameworks */,
+				FD34D37E2CF08AFD00E5ECBD /* Other */,
+				FD34D25C2CEB58A000E5ECBD /* M22Homework */,
+			);
+			sourceTree = "<group>";
+		};
+		FD34D25B2CEB58A000E5ECBD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FD34D25A2CEB58A000E5ECBD /* M22Homework.app */,
+				FD34D2702CEB58A300E5ECBD /* M22HomeworkTests.xctest */,
+				FD34D27A2CEB58A300E5ECBD /* M22HomeworkUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FD34D2592CEB58A000E5ECBD /* M22Homework */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FD34D2832CEB58A300E5ECBD /* Build configuration list for PBXNativeTarget "M22Homework" */;
+			buildPhases = (
+				4570F10AB99799E8FB435E09 /* [CP] Check Pods Manifest.lock */,
+				FD34D2562CEB58A000E5ECBD /* Sources */,
+				FD34D2572CEB58A000E5ECBD /* Frameworks */,
+				FD34D2582CEB58A000E5ECBD /* Resources */,
+				61AF76C5AA626E2EF01EF8D4 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				FD34D25C2CEB58A000E5ECBD /* M22Homework */,
+				FD34D37E2CF08AFD00E5ECBD /* Other */,
+			);
+			name = M22Homework;
+			productName = M22Homework;
+			productReference = FD34D25A2CEB58A000E5ECBD /* M22Homework.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FD34D26F2CEB58A300E5ECBD /* M22HomeworkTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FD34D2882CEB58A300E5ECBD /* Build configuration list for PBXNativeTarget "M22HomeworkTests" */;
+			buildPhases = (
+				A17E1F46158A06B19899FF6C /* [CP] Check Pods Manifest.lock */,
+				FD34D26C2CEB58A300E5ECBD /* Sources */,
+				FD34D26D2CEB58A300E5ECBD /* Frameworks */,
+				FD34D26E2CEB58A300E5ECBD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FD34D2722CEB58A300E5ECBD /* PBXTargetDependency */,
+			);
+			name = M22HomeworkTests;
+			productName = M22HomeworkTests;
+			productReference = FD34D2702CEB58A300E5ECBD /* M22HomeworkTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FD34D2792CEB58A300E5ECBD /* M22HomeworkUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FD34D28B2CEB58A300E5ECBD /* Build configuration list for PBXNativeTarget "M22HomeworkUITests" */;
+			buildPhases = (
+				B5217BA7CF9AD3CC8A2054EC /* [CP] Check Pods Manifest.lock */,
+				FD34D2762CEB58A300E5ECBD /* Sources */,
+				FD34D2772CEB58A300E5ECBD /* Frameworks */,
+				FD34D2782CEB58A300E5ECBD /* Resources */,
+				595E0B9642C493DF1BD13ECA /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FD34D27C2CEB58A300E5ECBD /* PBXTargetDependency */,
+			);
+			name = M22HomeworkUITests;
+			productName = M22HomeworkUITests;
+			productReference = FD34D27A2CEB58A300E5ECBD /* M22HomeworkUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FD34D2522CEB58A000E5ECBD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1610;
+				LastUpgradeCheck = 1610;
+				TargetAttributes = {
+					FD34D2592CEB58A000E5ECBD = {
+						CreatedOnToolsVersion = 16.1;
+					};
+					FD34D26F2CEB58A300E5ECBD = {
+						CreatedOnToolsVersion = 16.1;
+						TestTargetID = FD34D2592CEB58A000E5ECBD;
+					};
+					FD34D2792CEB58A300E5ECBD = {
+						CreatedOnToolsVersion = 16.1;
+						TestTargetID = FD34D2592CEB58A000E5ECBD;
+					};
+				};
+			};
+			buildConfigurationList = FD34D2552CEB58A000E5ECBD /* Build configuration list for PBXProject "M22Homework" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FD34D2512CEB58A000E5ECBD;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = FD34D25B2CEB58A000E5ECBD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FD34D2592CEB58A000E5ECBD /* M22Homework */,
+				FD34D26F2CEB58A300E5ECBD /* M22HomeworkTests */,
+				FD34D2792CEB58A300E5ECBD /* M22HomeworkUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FD34D2582CEB58A000E5ECBD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD34D26E2CEB58A300E5ECBD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD34D2782CEB58A300E5ECBD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4570F10AB99799E8FB435E09 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-M22Homework-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		595E0B9642C493DF1BD13ECA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-M22Homework-M22HomeworkUITests/Pods-M22Homework-M22HomeworkUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-M22Homework-M22HomeworkUITests/Pods-M22Homework-M22HomeworkUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-M22Homework-M22HomeworkUITests/Pods-M22Homework-M22HomeworkUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		61AF76C5AA626E2EF01EF8D4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-M22Homework/Pods-M22Homework-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-M22Homework/Pods-M22Homework-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-M22Homework/Pods-M22Homework-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A17E1F46158A06B19899FF6C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-M22HomeworkTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B5217BA7CF9AD3CC8A2054EC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-M22Homework-M22HomeworkUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FD34D2562CEB58A000E5ECBD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD34D26C2CEB58A300E5ECBD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD34D2762CEB58A300E5ECBD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FD34D2722CEB58A300E5ECBD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FD34D2592CEB58A000E5ECBD /* M22Homework */;
+			targetProxy = FD34D2712CEB58A300E5ECBD /* PBXContainerItemProxy */;
+		};
+		FD34D27C2CEB58A300E5ECBD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FD34D2592CEB58A000E5ECBD /* M22Homework */;
+			targetProxy = FD34D27B2CEB58A300E5ECBD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		FD34D2842CEB58A300E5ECBD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 42D51953E9DA61FF00E8F0EA /* Pods-M22Homework.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Q7GY7ARMP7;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = M22Homework/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Owner.M22Homework;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FD34D2852CEB58A300E5ECBD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 12AEFDCF1FC5E503ECAF18B8 /* Pods-M22Homework.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Q7GY7ARMP7;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = M22Homework/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Owner.M22Homework;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		FD34D2862CEB58A300E5ECBD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FD34D2872CEB58A300E5ECBD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FD34D2892CEB58A300E5ECBD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CD121D583B1433E3ABC3CB6B /* Pods-M22HomeworkTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Q7GY7ARMP7;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Owner.M22HomeworkTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/M22Homework.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/M22Homework";
+			};
+			name = Debug;
+		};
+		FD34D28A2CEB58A300E5ECBD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CAB97949A299A363D61B910C /* Pods-M22HomeworkTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Q7GY7ARMP7;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Owner.M22HomeworkTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/M22Homework.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/M22Homework";
+			};
+			name = Release;
+		};
+		FD34D28C2CEB58A300E5ECBD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2F2E2D1E9592CC60AC986DE4 /* Pods-M22Homework-M22HomeworkUITests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Q7GY7ARMP7;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Owner.M22HomeworkUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = M22Homework;
+			};
+			name = Debug;
+		};
+		FD34D28D2CEB58A300E5ECBD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4ABCCACD97AE8C4AF750529E /* Pods-M22Homework-M22HomeworkUITests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Q7GY7ARMP7;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Owner.M22HomeworkUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = M22Homework;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FD34D2552CEB58A000E5ECBD /* Build configuration list for PBXProject "M22Homework" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD34D2862CEB58A300E5ECBD /* Debug */,
+				FD34D2872CEB58A300E5ECBD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FD34D2832CEB58A300E5ECBD /* Build configuration list for PBXNativeTarget "M22Homework" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD34D2842CEB58A300E5ECBD /* Debug */,
+				FD34D2852CEB58A300E5ECBD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FD34D2882CEB58A300E5ECBD /* Build configuration list for PBXNativeTarget "M22HomeworkTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD34D2892CEB58A300E5ECBD /* Debug */,
+				FD34D28A2CEB58A300E5ECBD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FD34D28B2CEB58A300E5ECBD /* Build configuration list for PBXNativeTarget "M22HomeworkUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD34D28C2CEB58A300E5ECBD /* Debug */,
+				FD34D28D2CEB58A300E5ECBD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FD34D2522CEB58A000E5ECBD /* Project object */;
+}

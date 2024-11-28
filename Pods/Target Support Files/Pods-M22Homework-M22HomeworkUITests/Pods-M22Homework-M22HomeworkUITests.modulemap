@@ -1,0 +1,6 @@
+framework module Pods_M22Homework_M22HomeworkUITests {
+  umbrella header "Pods-M22Homework-M22HomeworkUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
