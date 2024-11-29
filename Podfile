@@ -6,6 +6,7 @@ target 'M22Homework' do
   use_frameworks!
 
   pod 'SnapKit'
+  pod 'SwiftLint'
 
   target 'M22HomeworkTests' do
     inherit! :search_paths

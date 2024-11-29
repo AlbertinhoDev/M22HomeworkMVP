@@ -12,17 +12,14 @@ protocol MainViewPresenterProtocol: AnyObject {
 }
 
 final class MainFilmPresenter: MainViewPresenterProtocol {
-    
     weak var view: MainViewProtocol?
     let networkService: NetworkServiceProtocol!
     var films: [Model]?
     var nameFilmForSearch: String?
-    
     required init(view: MainViewProtocol, networkService: NetworkServiceProtocol) {
         self.view = view
         self.networkService = networkService
     }
-    
     func getFilms(nameFilmForSearch: String ) {
         networkService.getFilms(nameFilmForSearch: nameFilmForSearch) { [weak self] result in
             guard let self = self else {return}
@@ -38,9 +35,7 @@ final class MainFilmPresenter: MainViewPresenterProtocol {
             }
         }
     }
-        
     private func showDescription(nameFilm: String) {
         print(nameFilm)
     }
-    
 }

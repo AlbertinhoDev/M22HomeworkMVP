@@ -14,4 +14,3 @@ class MainViewBuilder: Builder {
         return view
     }
 }
-

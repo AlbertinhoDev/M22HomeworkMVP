@@ -29,7 +29,6 @@ struct Model {
     var filmLength: String
     var rating: String
     var posterUrlPreview: UIImage?
-    
 }
 
 // MARK: Model for cell
